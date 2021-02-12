@@ -103,6 +103,7 @@ const MostActive = () => {
     return (
         <section className="most-active-container">
             <h1 className="most-active-header">Most Active Cases</h1>
+            <div className="underline"></div>
             <div className="cases">
                 <Cases />
             </div>
