@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.homepage-nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+  background-color: #b00d02;
+  color: #fff;
+  box-shadow: 0 8px 6px -6px black;
+  font-family: "Inconsolata", monospace;
+}
+
+.sign-in-btn:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.headline {
+  margin-top: 25px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .homepage-nav {
+    padding: 0 25px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .homepage-nav {
+    font-size: 0.8rem;
+  }
+}
